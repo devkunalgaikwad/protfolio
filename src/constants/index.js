@@ -226,7 +226,7 @@ import {
       ],
       image: spotify,
       url : 'https://spotify-app-six-mu.vercel.app/',
-      source_code_link: "https://github.com/devkunalgaikwad/spotify_clone",
+      source_code_link: "https://github.com/devkunalgaikwad/spotify_app",
     },
     {
       name: "Cropyto Currency Site ",
