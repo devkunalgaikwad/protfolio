@@ -226,7 +226,7 @@ import {
       ],
       image: spotify,
       url : 'https://spotify-app-six-mu.vercel.app/',
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/devkunalgaikwad/spotify_clone",
     },
     {
       name: "Cropyto Currency Site ",
@@ -248,7 +248,7 @@ import {
       ],
       image: coin,
       url : 'https://coinxplorer.vercel.app/',
-      source_code_link: "https://github.com/coinxplorer",
+      source_code_link: "https://github.com/devkunalgaikwad/coinxplorer",
     },
     {
       name: "Car Dekho",
