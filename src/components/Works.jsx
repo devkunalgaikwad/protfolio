@@ -1,10 +1,9 @@
-import React from 'react'
 import {motion} from 'framer-motion'
 import {styles} from '../styles'
 import {github} from '../assets'
 import {SectionWrapper} from '../hoc'
 import {projects} from '../constants'
-import {fadeIn,textVariant} from '../utils/motion'
+import {fadeIn} from '../utils/motion'
 import { Tilt } from 'react-tilt'
 import {FiExternalLink} from 'react-icons/fi'
 
@@ -49,7 +48,7 @@ const Works = () => {
         In my portfolio, I've curated a collection of diverse projects that showcase my skills and expertise in web development and design. These projects reflect my ability to conceptualize, design, and develop interactive and user-centric web applications. Each project emphasizes a different set of skills and technologies, contributing to a well-rounded representation of my capabilities.
         </motion.p>
       </div>
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 h-auto flex flex-wrap justify-center gap-7'>
         {projects.map((project,index)=>(
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

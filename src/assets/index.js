@@ -36,6 +36,8 @@ import tripguide from "./tripguide.png";
 import spotify from "./spotify.png";
 import coin from './coin.png';
 import carshowroom from './carshowroom.png'
+import travelNext from './travel_next.png'
+import travelNextLogo from './travel_logo_icon.png'
 
 export {
   logo,
@@ -71,5 +73,7 @@ export {
   tripguide,
   spotify,
   coin,
-  carshowroom
+  carshowroom,
+  travelNext,
+  travelNextLogo
 };

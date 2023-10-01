@@ -18,10 +18,12 @@ import {
     spotify,
     threejs,
     carshowroom,
+    travelNext,
     coin,
     iconSpotify,
     carLogo,
     coinLogo,
+    travelNextLogo,
   } from "../assets";
   
   export const navLinks = [
@@ -159,6 +161,21 @@ import {
         'Responsive layout for access on various devices.',
       ],
     },
+    {
+      title: "Room Booking services",
+      company_name: "Travel Next",
+      icon: travelNextLogo,
+      iconBg: "#383E56",
+      date: "Monogo db",
+      points: [
+        'User-friendly property search and booking system.',
+        'Secure reservation booking and cancellation functionality.',
+        'Interactive maps using Leaflet for property location visualization.',
+        'Hosts can create and list their properties with details.',
+        'Guest count, room count, and bathroom count for property listings.',
+        'GitHub repository for version control and collaboration.',
+      ],
+    },
   ];
   
   const testimonials = [
@@ -230,8 +247,8 @@ import {
         },
       ],
       image: coin,
-      url : 'https://spotify-app-six-mu.vercel.app/',
-      source_code_link: "https://github.com/",
+      url : 'https://coinxplorer.vercel.app/',
+      source_code_link: "https://github.com/coinxplorer",
     },
     {
       name: "Car Dekho",
@@ -254,6 +271,28 @@ import {
       image: carshowroom,
       url : 'https://spotify-app-six-mu.vercel.app/',
       source_code_link: "https://github.com/devkunalgaikwad/spotify_app",
+    },
+    {
+      name: "Travel Next",
+      description:
+        "Built a feature-rich Airbnb clone website that offers a seamless booking experience for travelers and property owners. This project showcases expertise in web development, user authentication, interactive maps, and payment processing.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb atlas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: travelNext,
+      url : 'https://travel-next-ten.vercel.app/',
+      source_code_link: "https://github.com/devkunalgaikwad/travel_next",
     },
   ];
   
