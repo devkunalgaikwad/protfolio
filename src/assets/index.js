@@ -39,6 +39,35 @@ import carshowroom from './carshowroom.png'
 import travelNext from './travel_next.png'
 import travelNextLogo from './travel_logo_icon.png'
 
+import Spotify from '../assets/bgimg/Spotify.png'
+import CoinXplorer from '../assets/bgimg/CoinXplorer.png'
+import CarDekho from '../assets/bgimg/CarDekho.png'
+
+import CoinXplorer1 from '../assets/projects_images/coinxplorer/coinxplorer (1).png'
+import CoinXplorer2 from '../assets/projects_images/coinxplorer/coinxplorer (2).png'
+import CoinXplorer3 from '../assets/projects_images/coinxplorer/coinxplorer (3).png'
+import CoinXplorer4 from '../assets/projects_images/coinxplorer/coinxplorer (4).png'
+import CoinXplorer5 from '../assets/projects_images/coinxplorer/coinxplorer (5).png'
+import CoinXplorer6 from '../assets/projects_images/coinxplorer/coinxplorer (6).png'
+
+import CarDekho1 from '../assets/projects_images/cardekho/cardekho (1).png'
+import CarDekho2 from '../assets/projects_images/cardekho/cardekho (2).png'
+import CarDekho3 from '../assets/projects_images/cardekho/cardekho (3).png'
+import CarDekho4 from '../assets/projects_images/cardekho/cardekho (4).png'
+import CarDekho5 from '../assets/projects_images/cardekho/cardekho (5).png'
+import CarDekho6 from '../assets/projects_images/cardekho/cardekho (6).png'
+import CarDekho7 from '../assets/projects_images/cardekho/cardekho (7).png'
+
+import Spotify1 from '../assets/projects_images/spotify/spotify (1).png'
+import Spotify2 from '../assets/projects_images/spotify/spotify (2).png'
+import Spotify3 from '../assets/projects_images/spotify/spotify (3).png'
+import Spotify4 from '../assets/projects_images/spotify/spotify (4).png'
+import Spotify5 from '../assets/projects_images/spotify/spotify (5).png'
+import Spotify6 from '../assets/projects_images/spotify/spotify (6).png'
+import Spotify7 from '../assets/projects_images/spotify/spotify (7).png'
+import Spotify8 from '../assets/projects_images/spotify/spotify (8).png'
+import Spotify9 from '../assets/projects_images/spotify/spotify (9).png'
+
 export {
   logo,
   iconSpotify,
@@ -75,5 +104,30 @@ export {
   coin,
   carshowroom,
   travelNext,
-  travelNextLogo
+  travelNextLogo,
+  CoinXplorer,
+  Spotify,
+  CarDekho,
+  CoinXplorer1,
+  CoinXplorer2,
+  CoinXplorer3,
+  CoinXplorer4,
+  CoinXplorer5,
+  CoinXplorer6,
+  CarDekho1,
+  CarDekho2,
+  CarDekho3,
+  CarDekho4,
+  CarDekho5,
+  CarDekho6,
+  CarDekho7,
+  Spotify1,
+  Spotify2,
+  Spotify3,
+  Spotify4,
+  Spotify5,
+  Spotify6,
+  Spotify7,
+  Spotify8,
+  Spotify9,
 };

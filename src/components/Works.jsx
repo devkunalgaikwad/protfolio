@@ -5,12 +5,13 @@ import {SectionWrapper} from '../hoc'
 import {projects} from '../constants'
 import {fadeIn} from '../utils/motion'
 import { Tilt } from 'react-tilt'
-import {FiExternalLink} from 'react-icons/fi'
+import {FiMoreVertical, FiExternalLink} from 'react-icons/fi'
+import {Link} from '@chakra-ui/react'
 
-const ProjectCard =({index, name, description, tags, image, source_code_link, url})=>{
+const ProjectCard =({index, name, description, tags, image, source_code_link, url ,id})=>{
   return(
     <motion.div variants={fadeIn('up','spring',index*0.5,0.75)}>
-      <Tilt options={{max:45,scale:1,speed:450}} className={'bg-[#cf6e4d] p-5 rounded-2xl sm:w-[360px] w-full'} >
+      <Tilt options={{max:45,scale:1,speed:450}} className={`${styles.heroSection} p-5 rounded-2xl sm:w-[360px] w-full`} >
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover gap-x-2'>
@@ -20,6 +21,9 @@ const ProjectCard =({index, name, description, tags, image, source_code_link, ur
               <div onClick={()=>window.open(url,'_blank')} className='black-gradient w-10 h-10 rounded-full text-white flex justify-center items-center cursor-pointer'>
                 <FiExternalLink/>
               </div>
+              <Link href={`/projects/${id}`} className='black-gradient w-10 h-10 rounded-full text-white flex justify-center items-center cursor-pointer'>
+                <FiMoreVertical color='white'/>
+              </Link>
           </div>
         </div>
         <div className='mt-5'>
@@ -45,7 +49,7 @@ const Works = () => {
       </motion.div>
       <div className='w-full flex'>
         <motion.p className='mt-3 text-[rgb(85 85 85 / var(--tw-text-opacity))] text-[17px] max-w-3xl leading-[30px]' variants={fadeIn('','',0.1,1)}>
-        In my portfolio, I've curated a collection of diverse projects that showcase my skills and expertise in web development and design. These projects reflect my ability to conceptualize, design, and develop interactive and user-centric web applications. Each project emphasizes a different set of skills and technologies, contributing to a well-rounded representation of my capabilities.
+        In my portfolio, I@apos ve curated a collection of diverse projects that showcase my skills and expertise in web development and design. These projects reflect my ability to conceptualize, design, and develop interactive and user-centric web applications. Each project emphasizes a different set of skills and technologies, contributing to a well-rounded representation of my capabilities.
         </motion.p>
       </div>
       <div className='mt-20 h-auto flex flex-wrap justify-center gap-7'>

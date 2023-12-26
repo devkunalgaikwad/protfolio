@@ -1,11 +1,9 @@
-import {BrowserRouter} from 'react-router-dom'
-import {About,Contact,Experience,Feedbacks,Hero,Navbar,Tech,Works,StarsCanvas} from './components'
+import {About,Contact,Experience,Feedbacks,Hero,Tech,Works,StarsCanvas} from './components'
+import {styles} from './styles'
 const App=()=> {
   return (
-    <BrowserRouter>
-      <div className='relative z-0 bg-[#FFBCAC]'>
+      <div className={`${styles.bg} relative z-0 `}>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar/>
           <Hero/>
         </div>
         <About />
@@ -18,7 +16,6 @@ const App=()=> {
           <StarsCanvas/>
         </div>
       </div>
-    </BrowserRouter>
   )
 }
 

@@ -24,6 +24,31 @@ import {
     carLogo,
     coinLogo,
     travelNextLogo,
+    CoinXplorer,
+    CoinXplorer1,
+    CoinXplorer2,
+    CoinXplorer3,
+    CoinXplorer4,
+    CoinXplorer5,
+    CoinXplorer6,
+    Spotify1,
+    Spotify2,
+    Spotify3,
+    Spotify4,
+    Spotify5,
+    Spotify6,
+    Spotify7,
+    Spotify8,
+    Spotify9,
+    CarDekho1,
+    CarDekho2,
+    CarDekho3,
+    CarDekho4,
+    CarDekho5,
+    CarDekho6,
+    CarDekho7,
+    Spotify,
+    CarDekho,
   } from "../assets";
   
   export const navLinks = [
@@ -38,7 +63,7 @@ import {
     {
       id: "contact",
       title: "Contact",
-    },
+    }
   ];
   
   const services = [
@@ -214,19 +239,43 @@ import {
         {
           name: "next",
           color: "blue-text-gradient",
+          icon: mobile,
         },
         {
           name: "Supabase",
           color: "green-text-gradient",
+          icon: web,
         },
         {
           name: "Stripe",
           color: "pink-text-gradient",
+          icon: creator,
         },
       ],
+      photoGallary : [Spotify1,Spotify2,Spotify3,Spotify4,Spotify5,Spotify6,Spotify7,Spotify8,Spotify9 ],
       image: spotify,
+      bgimg : Spotify,
       url : 'https://spotify-app-six-mu.vercel.app/',
       source_code_link: "https://github.com/devkunalgaikwad/spotify_app",
+      id : 'spotify',
+      hightitle :'HarmoniSync',
+      highsubtitle :'Music Streaming Experience',
+      title: ' Rhythmic Resonance',
+      subtitle : 'Elevating the ',
+      metrics : [
+        {
+          name : 'User Authentication',
+          data : 'Seamless account management.'
+        },
+        {
+          name: 'Integration',
+          data : 'Stripe',
+        },
+        {
+          name : 'Special Feature',
+          data : 'Track control',
+        }
+      ]
     },
     {
       name: "Cropyto Currency Site ",
@@ -236,19 +285,43 @@ import {
         {
           name: "react",
           color: "blue-text-gradient",
+          icon: web,
         },
         {
           name: "coinGeco.api",
           color: "green-text-gradient",
+          icon: mobile,
         },
         {
           name: "Chakra ui",
           color: "pink-text-gradient",
+          icon: backend,
         },
       ],
+      photoGallary : [CoinXplorer1,CoinXplorer2, CoinXplorer3,CoinXplorer4, CoinXplorer5,CoinXplorer6],
       image: coin,
+      bgimg : CoinXplorer,
       url : 'https://coinxplorer.vercel.app/',
       source_code_link: "https://github.com/devkunalgaikwad/coinxplorer",
+      id : 'coinxplorer',
+      hightitle :'CryptoCompass',
+      highsubtitle :'World of Cryptocurrency',
+      title : ' Navigating the Blockchain',
+      subtitle : 'Navigating the ',
+      metrics : [
+        {
+          name : 'Live Data',
+          data : 'Real-time prices and trends'
+        },
+        {
+          name: 'Visualization',
+          data : 'Interactive charts',
+        },
+        {
+          name : 'Integration',
+          data : 'Coingecko',
+        }
+      ]
     },
     {
       name: "Car Dekho",
@@ -258,19 +331,43 @@ import {
         {
           name: "nextjs",
           color: "blue-text-gradient",
+          icon: mobile,
         },
         {
           name: "Rapid api",
           color: "green-text-gradient",
+          icon: web,
         },
         {
           name: "Chakra ui",
           color: "pink-text-gradient",
+          icon: backend,
         },
       ],
+      photoGallary : [CarDekho1,CarDekho2,CarDekho3,CarDekho4,CarDekho5,CarDekho6,CarDekho7 ],
       image: carshowroom,
+      bgimg : CarDekho,
       url : 'https://spotify-app-six-mu.vercel.app/',
       source_code_link: "https://github.com/devkunalgaikwad/spotify_app",
+      id : 'cardekho',
+      hightitle :'AutoVista',
+      highsubtitle :'Car Exploration',
+      title : ' Drive into Details',
+      subtitle : 'Driving Innovation in ',
+      metrics : [
+        {
+          name : 'Car Catalog',
+          data : 'Images, specifications, and pricing'
+        },
+        {
+          name: 'Search',
+          data : 'Filtering options',
+        },
+        {
+          name : 'Special Feature',
+          data : 'Dynamic Loading',
+        }
+      ]
     },
     {
       name: "Travel Next",
@@ -280,19 +377,43 @@ import {
         {
           name: "nextjs",
           color: "blue-text-gradient",
+          icon: creator,
         },
         {
           name: "mongodb atlas",
           color: "green-text-gradient",
+          icon: web,
         },
         {
           name: "prisma",
           color: "pink-text-gradient",
+          icon: mobile,
         },
       ],
+      photoGallary : [ ],
       image: travelNext,
+      bgimg : CoinXplorer,
       url : 'https://travel-next-ten.vercel.app/',
       source_code_link: "https://github.com/devkunalgaikwad/travel_next",
+      id : 'travel_next',
+      hightitle :'JourneyHub',
+      highsubtitle :'Seamless Booking',
+      title : ' Your Passport to Seamless Travel',
+      subtitle : 'Transforming Travel with ',
+      metrics : [
+        {
+          name : 'Airbnb Clone',
+          data : 'Feature-rich website'
+        },
+        {
+          name: 'User Authentication',
+          data : 'Secure and personalized',
+        },
+        {
+          name : 'Special Feature',
+          data : 'Interactive Maps',
+        }
+      ]
     },
   ];
   

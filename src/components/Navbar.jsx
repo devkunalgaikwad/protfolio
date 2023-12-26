@@ -1,15 +1,14 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { styles } from '../styles'
 import {close, logo, menu} from '../assets'
 import {navLinks} from '../constants'
-import {Link, NavLink} from 'react-router-dom'
-import {AiOutlineCloseCircle} from 'react-icons/ai'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
   const [toggle,setToggle] = useState(false)
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#F1916D]`}>
+    <nav className={`${styles.paddingX , styles.darkbg} w-full flex items-center py-5 fixed top-0 z-20 `}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link to={'/'} className='flex items-center gap-2' onClick={()=>{setActive('');window.scrollTo(0,0)}}>
           <img src={logo} alt='logo' className='w-9 h-9 object-contain'></img>
@@ -19,7 +18,7 @@ const Navbar = () => {
           {navLinks.map((link)=>(
             <li key={link.id} className={`${active===link.title?'text-white':'text-[#06142E]'} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={()=>setActive(link.title)}>
               
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`/#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
@@ -29,7 +28,7 @@ const Navbar = () => {
             <ul className='list-none flex justify-end items-start flex-col gap-4'>
               {navLinks.map((link)=>(
                 <li key={link.id} className={`${active===link.title?'text-white':'text-secondary'} hover:text-white text-[16px] font-medium cursor-pointer`} onClick={()=>{setActive(link.title); setToggle(!toggle)}}>
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={`/#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
