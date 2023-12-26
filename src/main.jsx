@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </div>
         <Routes>
           <Route path='/' element={<App/>}/>
-          <Route path='/projects/:id' element={<ProjectsDetails/>}/>
+          <Route path='/:id' element={<ProjectsDetails/>}/>
         </Routes>
       </ChakraProvider>
     </Router>

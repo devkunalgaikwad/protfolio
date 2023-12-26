@@ -6,9 +6,7 @@ import PhotoGallary from './components/PhotoGallary'
 const ProjectsDetails = () => {
   return (
     <div className={`${styles.bg}`}>
-      <div className='top-10'>
-        <HeroSection />
-      </div>
+      <HeroSection />
       <AboutProject/>
       <PhotoGallary/>
     </div>

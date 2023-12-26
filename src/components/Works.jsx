@@ -21,7 +21,7 @@ const ProjectCard =({index, name, description, tags, image, source_code_link, ur
               <div onClick={()=>window.open(url,'_blank')} className='black-gradient w-10 h-10 rounded-full text-white flex justify-center items-center cursor-pointer'>
                 <FiExternalLink/>
               </div>
-              <Link href={`/projects/${id}`} className='black-gradient w-10 h-10 rounded-full text-white flex justify-center items-center cursor-pointer'>
+              <Link href={`/${id}`} className='black-gradient w-10 h-10 rounded-full text-white flex justify-center items-center cursor-pointer'>
                 <FiMoreVertical color='white'/>
               </Link>
           </div>
